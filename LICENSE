@@ -1,0 +1,43 @@
+Copyright (c) 2026 ligt, the author of DoroDoro (https://github.com/duyquang6/dorodoro).
+
+All rights reserved.
+
+DoroDoro is proprietary. The binaries published in this repository's
+releases, and the documentation in this repository, may not be copied,
+modified, distributed, sublicensed or sold without prior written permission
+from the copyright holder, except as this license allows below.
+
+You may install and use a released binary on hardware you own.
+
+You may redistribute the release archives published at
+https://github.com/duyquang6/dorodoro/releases (DoroDoro-<version>-<firmware>.zip),
+on three conditions:
+
+1. Unchanged. Each archive you offer must match, byte for byte, the SHA-256
+   checksum published for it in SHA256SUMS.txt on its release page.
+2. With its source. Next to the download, name DoroDoro and its author, and
+   link to the release the archive came from, for example
+   https://github.com/duyquang6/dorodoro/releases/tag/v2026.10.07.
+3. Free of charge, and for no other commercial purpose.
+
+An archive or binary that has been changed, unpacked and repacked, or
+extracted from an archive, may not be distributed.
+
+DoroDoro's interface is part of the copyrighted work: its screens, their
+layout, the graphics and wording, as the releases and the screenshots in
+this repository show them. Reproducing them, or a close imitation of them,
+in another product needs the same prior written permission. Work that takes
+ideas or inspiration from DoroDoro must credit it by name, with a link to
+https://github.com/duyquang6/dorodoro.
+
+DoroDoro comes as is, without warranty of any kind, express or implied. As
+far as the law allows, its authors are not liable for any damage arising
+from its use, or from being unable to use it.
+
+DoroDoro is not affiliated with, endorsed by or sponsored by TrimUI or the
+makers of the firmware it runs on; their names are their owners'
+trademarks, used only to say what DoroDoro works with.
+
+This restriction does not alter the rights granted by the licenses of
+third-party components linked into the binary. Those components and their
+complete notices ship with each release, in THIRD_PARTY.md.

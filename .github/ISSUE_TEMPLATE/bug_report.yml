@@ -1,0 +1,68 @@
+name: Bug report / Báo lỗi
+description: Something is not working / Có gì đó không chạy đúng
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. The logs are what usually explain the problem, so please attach them.
+        Cảm ơn bạn đã báo lỗi. File log thường là thứ giải thích được vấn đề, nên nhớ đính kèm nhé.
+
+  - type: dropdown
+    id: firmware
+    attributes:
+      label: Firmware
+      options:
+        - spruceOS
+        - Stock TrimUI
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: DoroDoro version / Phiên bản DoroDoro
+      description: In the name of the zip you downloaded / Có trong tên file zip bạn đã tải
+      placeholder: "2026.10.07"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: when
+    attributes:
+      label: Where were you? / Lúc đó bạn đang ở đâu?
+      options:
+        - In DoroDoro / Trong DoroDoro
+        - In a game / Đang chơi game
+        - In the launcher / Ở launcher
+        - The handheld was asleep / Máy đang sleep
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / Chuyện gì đã xảy ra?
+      description: What you expected, and what you got instead / Bạn mong đợi gì, và thực tế ra sao
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to make it happen again / Cách làm lỗi xảy ra lại
+      placeholder: |
+        1. Set 15 minutes and press A / Hẹn 15 phút rồi bấm A
+        2. Press B and open a game / Bấm B rồi mở game
+        3. ...
+
+  - type: textarea
+    id: log
+    attributes:
+      label: dorodoro.log and dorodoro-alarm.log
+      description: |
+        Quit DoroDoro first, then drag both files here. They are in the app folder on the SD card:
+        Thoát DoroDoro trước, rồi kéo cả hai file vào đây. Chúng nằm trong thư mục app trên thẻ nhớ:
+        spruceOS: `/mnt/SDCARD/App/DoroDoro/` · Stock: `/mnt/SDCARD/Apps/DoroDoro/`
+    validations:
+      required: true
